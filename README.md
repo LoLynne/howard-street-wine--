@@ -4,7 +4,7 @@ Fredy Gnambi, Brandon Finch, Sophie Koenig, Jackson Martin, Gregory Treinen, Lou
 Our project is to create an updated, fully functional website for the company Howard Street Wine Merchant. The website will also include a wine quiz to drive sale performance. 
 
 ### Our code can be found in the following branches:
-- feature/quiz-page *quiz page with some working buttons*
+- jackson-branch *quiz page with some working buttons*
 - nextjs *mostly functional basic website design*
 
 ### Release Notes: 
