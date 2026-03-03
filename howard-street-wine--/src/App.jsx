@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import './App.css'
+import Home from './pages/Home'
 import About from './pages/About'
 import Events from './pages/Events'
 import Contact from './pages/Contact'
@@ -10,7 +11,7 @@ function App() {
       <nav>
         <span className="nav-logo">Howard Street Wine Merchant</span>
         <div className="nav-links">
-          <Link to="/">Shop</Link>
+          <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/events">Events</Link>
           <Link to="/contact">Contact</Link>
@@ -18,7 +19,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<h1>Shop Page Coming Soon</h1>} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
