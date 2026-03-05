@@ -591,3 +591,32 @@ main h1 {
   font-size: 0.9rem;
   color: var(--earth-tan);
 }
+/* SHOP */
+.shop-page {
+  width: 100%;
+}
+
+.shop-hero {
+  background-color: var(--earth-dark);
+  padding: 80px 80px;
+  border-bottom: 3px solid var(--earth-gold);
+  width: 100%;
+}
+
+.shop-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  color: var(--earth-cream);
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.shop-hero h1 em {
+  color: var(--earth-gold);
+  font-style: italic;
+}
+
+.shop-subtitle {
+  color: var(--earth-tan);
+  font-size: 1.2rem;
+}

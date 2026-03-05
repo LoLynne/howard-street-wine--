@@ -3,10 +3,8 @@ import { useState, useMemo } from "react";
 // Paste your wines.json data here, or import it:
 // import winesData from './wines.json';
 // For demo purposes, we use a small sample — replace `WINES` with your full imported JSON
-const WINES = {
-  "store": "Howard Street Wine Merchant",
-  "wines": [] // <-- replace with: winesData.wines
-};
+import winesData from './wines.json';
+const WINES = winesData;
 
 const CATEGORY_LABELS = {
   red_wines: "Red Wines",

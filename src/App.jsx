@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Events from './pages/Events'
 import Contact from './pages/Contact'
+import Shop from './pages/Shop'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Link to="/about">About</Link>
           <Link to="/events">Events</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/shop">Shop</Link>
         </div>
       </nav>
 
@@ -23,6 +25,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/shop" element={<Shop />} />
       </Routes>
     </BrowserRouter>
   )
