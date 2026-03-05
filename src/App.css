@@ -366,3 +366,138 @@ main h1 {
   resize: vertical;
   min-height: 160px;
 }
+/* ABOUT */
+.about-hero {
+  background-color: var(--earth-dark);
+  padding: 80px 80px;
+  border-bottom: 3px solid var(--earth-gold);
+  width: 100%;
+}
+
+.about-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  color: var(--earth-cream);
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.about-hero h1 em {
+  color: var(--earth-gold);
+  font-style: italic;
+}
+
+.about-subtitle {
+  color: var(--earth-tan);
+  font-size: 1.2rem;
+}
+
+.about-page {
+  width: 100%;
+}
+
+/* STORY */
+.about-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 100px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.story-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  color: var(--earth-mid);
+  margin-bottom: 24px;
+}
+
+.story-text p {
+  font-size: 1.1rem;
+  color: var(--earth-warm);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.image-placeholder {
+  background: linear-gradient(135deg, var(--earth-dark), var(--earth-mid));
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid var(--earth-gold);
+}
+
+.image-placeholder span {
+  font-size: 5rem;
+  margin-bottom: 16px;
+}
+
+.image-placeholder p {
+  font-family: 'Playfair Display', serif;
+  color: var(--earth-cream);
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+}
+
+/* TEAM */
+.about-team {
+  background-color: var(--earth-dark);
+  padding: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.about-team h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: var(--earth-cream);
+  margin-bottom: 48px;
+}
+
+.about-team .section-label {
+  color: var(--earth-gold);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.team-card {
+  background-color: var(--earth-mid);
+  padding: 40px 32px;
+  border-bottom: 3px solid var(--earth-gold);
+}
+
+.team-avatar {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.team-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  color: var(--earth-cream);
+  margin-bottom: 8px;
+}
+
+.team-role {
+  color: var(--earth-gold);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 12px !important;
+}
+
+.team-card p {
+  color: var(--earth-tan);
+  line-height: 1.6;
+  font-size: 1rem;
+}
