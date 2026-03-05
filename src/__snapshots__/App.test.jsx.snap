@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`app matches snapshot 1`] = `
+<div>
+  <nav>
+    <span
+      class="nav-logo"
+    >
+      Howard Street Wine Merchant
+    </span>
+    <div
+      class="nav-links"
+    >
+      <a
+        data-discover="true"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        data-discover="true"
+        href="/about"
+      >
+        About
+      </a>
+      <a
+        data-discover="true"
+        href="/events"
+      >
+        Events
+      </a>
+      <a
+        data-discover="true"
+        href="/contact"
+      >
+        Contact
+      </a>
+    </div>
+  </nav>
+  <main>
+    <h1>
+      Welcome to Howard Street Wine Merchant
+    </h1>
+  </main>
+</div>
+`;

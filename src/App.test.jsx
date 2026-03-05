@@ -72,3 +72,16 @@ test('clicking Home link returns to home page', async () => {
   await user.click(screen.getByText('Home'))
   expect(screen.getByText(/Welcome to Howard Street Wine Merchant/i)).toBeInTheDocument()
 })
+// Snapshot Test - catches unexpected UI changes
+test('app matches snapshot', () => {
+  const { container } = render(<App />)
+  expect(container).toMatchSnapshot()
+})
+
+// Test nav logo links back to home
+test('nav logo text is visible', () => {
+  render(<App />)
+  expect(screen.getByText('Howard Street Wine Merchant')).toBeVisible()
+})
+
+
