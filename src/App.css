@@ -2,20 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Crimson+Text:wght@400;600&display=swap');
 
 :root {
-  /* Primary Colors — 30% of visual weight */
-  --color-toasted-walnut: oklch(0.5528 0.0568 61.39);
-  --color-sage-meadow:    oklch(0.604  0.056  139.8);
-  --color-harvest-gold:   oklch(0.779  0.1295 88.45);
-
-  /* Accent Colors — 10% of visual weight */
-  --color-dusty-coral:    oklch(0.6807 0.1215 30.6);
-  --color-harbor-teal:    oklch(0.6789 0.0716 195.6);
-  --color-morning-haze:   oklch(0.8221 0.0274 246.41);
-
-  /* Neutral base — 60% of visual weight */
-  --color-neutral-bg:     oklch(0.96 0.008 88);    /* warm off-white */
-  --color-neutral-surface: oklch(0.92 0.01 80);    /* light parchment */
-  --color-neutral-text:   oklch(0.22 0.02 60);     /* dark warm brown */
+  --earth-dark: #2C1810;
+  --earth-mid: #5C3317;
+  --earth-warm: #8B4513;
+  --earth-tan: #D2956A;
+  --earth-cream: #F5ECD7;
+  --earth-gold: #C4972F;
+  --text-light: #F5ECD7;
 }
 
 * {
