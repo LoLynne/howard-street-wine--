@@ -1,0 +1,18 @@
+{
+  "entryPoints": [
+    "src/main.jsx",
+    "src/App.jsx",
+    "src/WineCatalog.jsx",
+    "src/pages/Home.jsx",
+    "src/pages/About.jsx",
+    "src/pages/Contact.jsx",
+    "src/pages/Events.jsx",
+    "src/pages/Shop.jsx"
+  ],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "name": "Howard Street Wine Merchant",
+  "includeVersion": true,
+  "readme": "README.md",
+  "exclude": ["**/*.test.jsx", "**/__snapshots__/**", "node_modules/**"]
+}

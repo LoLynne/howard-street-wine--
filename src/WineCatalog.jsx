@@ -1,11 +1,11 @@
 import { useState, useMemo } from "react";
-
-// Paste your wines.json data here, or import it:
-// import winesData from './wines.json';
-// For demo purposes, we use a small sample — replace `WINES` with your full imported JSON
 import winesData from './wines.json';
 const WINES = winesData;
 
+/**
+ * Maps internal category keys to human-readable display labels.
+ * @type {Object.<string, string>}
+ */
 const CATEGORY_LABELS = {
   red_wines: "Red Wines",
   white_wines: "White Wines",
@@ -15,7 +15,10 @@ const CATEGORY_LABELS = {
   gold_dispenser: "On Tap · Gold",
   wine_club: "Wine Club",
 };
-
+/**
+ * Maps internal category keys to their associated brand colors for UI display.
+ * @type {Object.<string, string>}
+ */
 const CATEGORY_COLORS = {
   red_wines: "#8B1A1A",
   white_wines: "#C4A35A",
@@ -25,7 +28,10 @@ const CATEGORY_COLORS = {
   gold_dispenser: "#B8962E",
   wine_club: "#2C3E50",
 };
-
+/**
+ * The main wine catalog component for Howard Street Wine Merchant.
+ * ...
+ */
 export default function WineCatalog({ wines = WINES.wines }) {
   const [activeCategory, setActiveCategory] = useState("all");
   const [search, setSearch] = useState("");
